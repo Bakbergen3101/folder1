@@ -9,6 +9,11 @@ class Lesson:
     def height(self):
         return f'Рост {self.name} состовляет {self.heigh}'
 
-a = Lesson('bakbergen', 18, 1.75)
+a = Lesson('bakbergen', 17, 1.56)
 print(a.height())
+
+class Lesson1:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
