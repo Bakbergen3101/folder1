@@ -12,3 +12,5 @@ class Lesson:
 a = Lesson('bakbergen', 18, 1.75)
 print(a.height())
 
+
+
