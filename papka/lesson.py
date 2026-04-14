@@ -12,3 +12,8 @@ class Lesson:
 a = Lesson('bakbergen', 18, 1.75)
 print(a.height())
 
+class Lesson2:
+    def __init__(self, name, age, heigh):
+        self.name = name
+        self.age = age
+        self.heigh = heigh
